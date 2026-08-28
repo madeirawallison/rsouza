@@ -9,6 +9,9 @@ rsouza-site/
 ├── index.html
 ├── privacidade.html
 ├── termos-de-uso.html
+├── simples-nacional-2027.html
+├── flexibilidade-ibs-cbs.html
+├── locacao-imobiliaria.html
 ├── css/
 │   └── style.css
 ├── js/
@@ -61,6 +64,7 @@ Não incluí um arquivo `CNAME` nesta versão porque ele deve ser criado somente
 - Página de privacidade estrutural
 - Metatags básicas para SEO
 - Sitemap e robots.txt
+- Área de Informativos com comunicados em páginas próprias, prontas para compartilhamento
 
 ## Antes de publicar definitivamente
 
