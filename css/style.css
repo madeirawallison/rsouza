@@ -594,3 +594,8 @@ p { margin: 0 0 16px; color: var(--muted); }
   .article-hero p { font-size: 16px; }
   .article-body li { font-size: 16px; }
 }
+.compare-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 16px; margin: 6px 0 24px; }
+.compare-card { background: var(--paper); border: 1px solid var(--line); border-top: 4px solid var(--navy-700); border-radius: var(--radius-md); padding: 22px 22px 8px; }
+.compare-card + .compare-card { border-top-color: var(--accent-dark); }
+.article-body .compare-card h3 { margin-top: 0; }
+.article-body .compare-card p { font-size: 15.5px; line-height: 1.7; }
