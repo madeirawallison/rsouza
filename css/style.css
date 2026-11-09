@@ -599,3 +599,7 @@ p { margin: 0 0 16px; color: var(--muted); }
 .compare-card + .compare-card { border-top-color: var(--accent-dark); }
 .article-body .compare-card h3 { margin-top: 0; }
 .article-body .compare-card p { font-size: 15.5px; line-height: 1.7; }
+@media (max-width: 620px) {
+  .article-table { font-size: 14px; }
+  .article-table th, .article-table td { padding: 12px 12px; }
+}
